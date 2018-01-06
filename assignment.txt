@@ -1,0 +1,10 @@
+Kali Linux scan tools uittesten
+Alle mogelijke scan tools uittesten die kali linux bevat om een overzicht te
+krijgen van alle mogelijk toestellen en IoT-devices
+in een (consumer) netwerk en mogelijke onveiligheden.
+
+(Rand)voorwaarden:
+- alle scan-tools (netwerk en protocol/applicatie specifieke scans) voor als je al in het netwerk zit.
+- niet rekening houden met IDS-tools (meer richten op consumer netwerken of small business)
+- zo veel mogelijk automatiseren, nmap voor lijst van hosts, http-traffic tool gebruiken voor de hosts met poorten die http open hebben staan
+- alle resultaten proberen te verzamelen (niet parsen, gewoon verzamelen)
