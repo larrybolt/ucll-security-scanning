@@ -3,7 +3,16 @@ My initial goal is to set up a low-cost device that scans the network for change
 
 Being aware of what changes happen to a network and what devices are on the network seems like useful information for ICT savy people.
 
-The amount of IoT-devices will only increase, and the switch to IPv6 means more devices will be accessable directly.
+The amount of IoT-devices will only increase, and the switch to IPv6 means more devices will be accessable directly trough the Internet.
+## Strategies
+### Gathering information
+First of all it's useful to gather information about current devices in a network and the services provided by the device (http/ssh/telnet...)
+
+Futher it's useful identify the verion of services, to check if updates are due or the version of the running software on a device is vulnerable.
+### Monitoring changes
+Whenever a new device appears in the network, or a new service becomes available it could be due to an intrusion.
+
+
 ## TODO
 - [ ] check how golismero could be used to scan IoT devices with a webinterface?
 - [ ] check if masscan is faster to scan for ports? 
@@ -13,6 +22,7 @@ snmp->snmp-check
 http->nikto 
 all in one tool: sparta
 sslscan
+blindelephant
 
 for any ipv6 thc-ipv6
 ## original assignment

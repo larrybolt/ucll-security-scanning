@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 source ./common.sh
-#::netmask2cidr
-#mask2cdr
 
 # Get the public ip address for this network
 PUBLIC_IP=$(dig +short myip.opendns.com @resolver1.opendns.com)
