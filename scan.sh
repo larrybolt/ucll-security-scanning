@@ -26,5 +26,5 @@ for _IP in $LOCAL_IPS; do
 	fi
 	BASEIP="$(networkip $IP $NETMASK)"
 
-	echo "Scanning IP: $BASEIP/$CIDR (own ip: $IP)"
+	echo "range: $BASEIP/$CIDR (own ip: $IP)"
 done
