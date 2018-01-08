@@ -220,6 +220,8 @@ Nmap results can be exported using the `-oX` flag to xml format, which can be im
 
 For the other tools scripting would be required, the nmap output is more usfull since it reports the kind of service (http/netbios-ssn/...)
 
+Other relevant scripts could be smbmap, miranda, nbtscan. A lot of webapp scanning tools exist that call tools on their own such as GoLismero.
+
 Other tools for this might exist too, such as `Open-AudIT` [5] but those are more geared towards network management. My ideal tool would report about changes and allow full scans of the network and services for known vulnerabilities.
 
 ## sources
