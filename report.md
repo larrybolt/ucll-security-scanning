@@ -1,4 +1,7 @@
 # Security Assignment
+
+https://github.com/larrybolt/ucll-security-scanning/blob/master/report.md
+
 My initial goal is to set up a low-cost device that scans the network for changes in active devices and open ports on those devices. In a certain sense it would function as an IDS and general network device monitoring tool.
 
 Being aware of what changes happen to a network and what devices are on the network seems like useful information for ICT savy people.
@@ -115,7 +118,9 @@ Get a list of all devices connection to the network trough ethernet and the IP's
 ### smbmap 
 can be used to scan samba shares
 ```
-smbmap -H 10.10.0.1```
+smbmap -H 10.10.0.1
+
+```
 ### snmp-check
 For devices that have snmp enabled
 ```
